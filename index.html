@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Lloyd | Portfolio</title>
+    <link rel="icon" type="image/png" href="Images/myicon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/08aa5f2a76.js" crossorigin="anonymous"></script>
+</head> 
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/D.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#projects">My Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>BSIT-MWA Student</p>
+                    <h1>Hi, I'm <span>John Lloyd</span><br>From NU-MOA</h1>
+                </div>
+            </div>
+        </div>
+        <!-- about -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Images/me.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hi, I'm John Lloyd Danzalan, a passionate second-year student currently pursuing a Bachelor of Science in Information Technology with a specialization in Mobile and Web Applications (BSIT-MWA) at National University – MOA Campus.
+                            Ever since I began my journey in the IT field, I've been driven by curiosity, creativity, and a desire to solve real-world problems through technology. I enjoy building user-friendly and responsive web and mobile applications that not only work—but make an impact. Whether I’m collaborating with classmates or working on personal projects, I always strive for growth, innovation, and excellence.
+                            I believe in continuous learning and hands-on experience, and I'm always looking for new opportunities to expand my skillset, connect with like-minded individuals, and contribute to meaningful projects. This portfolio is a reflection of my journey so far—welcome, and feel free to explore!
+                        </p>
+                           <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('exp')">Experience</p>
+                            <p class="tab-links"onclick="opentab('edu')">Education</p>
+                           </div>
+                           <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Website Development</li>
+                                <li><span>App Development</span><br>Building Android apps</li>
+                            </ul>
+                           </div>
+                           <div class="tab-contents" id="exp">
+                            <ul>
+                                <li><span>Visual Studio Code</span><br>for Website/App Development</li>
+                                <li><span>Apache Netbeans IDE</span><br>for Website/App Development</li>
+                                <li><span>Android Studio</span><br>for Building Android apps</li>
+                            </ul>
+                           </div>
+                           <div class="tab-contents" id="edu">
+                            <ul>
+                                <li><span>AY 2023-2024</span><br>1st Year BSIT-MWA From NU-MOA</li>
+                                <li><span>AY 2024-2025</span><br>2nd Year BSIT-MWA From NU-MOA</li>
+                            </ul>
+                           </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Projects -->
+         <div id="projects">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="Images/signup.png">
+                        <div class="layer">
+                            <h3>Sign-Up Form</h3>
+                            <p>A clean and responsive sign-up form built using HTML, CSS, and JavaScript. 
+                                This project showcases form validation, user-friendly layout design, and a basic foundation for user registration systems. 
+                                It demonstrates front-end skills in creating intuitive and accessible user interfaces.</p>
+                            <a href="Images/Danzalan_FA2/index.html" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Images/anime.png">
+                        <div class="layer">
+                            <h3>Anime Website</h3>
+                            <p>A custom-designed anime-themed website inspired by MyAnimeList. Created using HTML, CSS, and JavaScript, it features sections for anime listings, 
+                                genres, and a styled sign-up page. This project highlights creativity, layout structuring, and an understanding of modern web design trends tailored to a specific community interest.</p>
+                            <a href="Images/Danzalan_FA1/Danzalan_FA1/Danzalan_FA1/Danzalan_FA1/Danzalan_FA1/index.html" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Images/portfolio.png">
+                        <div class="layer">
+                            <h3>My Portfolio</h3>
+                            <p>This portfolio was created to showcase my progress as a second-year BSIT-MWA student at National University – MOA. 
+                                It highlights some of the projects I’ve developed, the skills I’ve learned, and the passion I have for web and mobile application development. 
+                                As I continue my journey in IT, I look forward to gaining more experience, collaborating on meaningful projects, and constantly improving my craft.</p>
+                            <a href="#" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <!-- contact -->
+          <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> danzalanjt@students.nu-moa.edu.ph</p>
+                        <p><i class="fa-solid fa-phone"></i> 0916952991</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/dj9104"><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <a href="Images/My_CV.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Danzi.</p>
+            </div>
+          </div>
+        <script src="script.js"></script>
+    </body>
+</html>

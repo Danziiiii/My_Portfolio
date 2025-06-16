@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyAnimeList Sign Up</title>
+    <link rel="icon" type="image/png" href="MALclearlogo.png">
+    <link rel = "stylesheet" href="style.css">
+</head>
+    <body>
+        <div class="header">
+            <div class="header_icon">
+                <img src="MALclearlogo.png" alt="icon">
+            </div>
+            <h4 style="text-align: center;">MyAnimeList</h4>
+        </div>
+
+        <div class="container">
+            <img src="bg.avif" alt="MAL">
+            <div class="mal_content">
+                <div class="mal_txt">
+                    <h1>The world's most active online anime and manga community and database</h1>
+                    <p>How much anime have you seen?</p>
+                </div>
+
+                 <div class="signup_form">
+                    <h2>Sign up Form</h2>
+                    <form id="signupForm">
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" id="fullName" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="number" id="phone" required />
+                        </div>
+                        <div class="form-group">
+                            <label>Gender</label>
+                        <div class="gender-group">
+                            <label><input type="radio" name="gender" value="Male" required /> Male</label>
+                            <label><input type="radio" name="gender" value="Female" required /> Female</label>
+                            <label><input type="radio" name="gender" value="Other" required /> Other</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                            <label for="dob">Date of Birth</label>
+                            <input type="date" id="dob" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="genre">Favorite Anime Genre</label>
+                        <select id="genre" required>
+                        <option value="">-- Select Genre --</option>
+                        <option value="Action">Action</option>
+                        <option value="Adventure">Adventure</option>
+                        <option value="Comedy">Comedy</option>
+                        <option value="Drama">Drama</option>
+                        <option value="Fantasy">Fantasy</option>
+                        <option value="Horror">Horror</option>
+                        <option value="Mystery">Mystery</option>
+                        <option value="Romance">Romance</option>
+                        <option value="Sci-Fi">Sci-Fi</option>
+                        <option value="Slice of Life">Slice of Life</option>
+                        <option value="Sports">Sports</option>
+                        <option value="Supernatural">Supernatural</option>
+                        <option value="Shounen">Shounen</option>
+                        <option value="Shoujo">Shoujo</option>
+                        <option value="Seinen">Seinen</option>
+                        <option value="Josei">Josei</option>
+                        </select>
+                    </div>
+                    <div class="form-check">
+                            <label><input type="checkbox" id="terms" required /> I accept the Terms and Conditions</label>
+                        </div>
+                        <br />
+                        <button type="submit">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <img src="MALclearlogo.png" alt="Icon" class="footer_logo" />
+            <p>Organize, Discuss, Discover - MyAnimeList | Developed by John Lloyd T. Danzalan | 2nd Year BSIT</p>
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
